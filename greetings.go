@@ -1,10 +1,10 @@
 //Package greeting to wirte greeting program
 package greetings
 
-//var greetingword is declared and initailized
-var greetingword = "Hello"
+//var GreetingWord is declared and initailized
+var GreetingWord = "Welcome "
 
-//func Greetingmessage display greeting message
-func Greetingmessage(name string) string {
-	return greetingword + "-" + name
+//func GreetingMessage display greeting message
+func GreetingMessage(name string) string {
+	return GreetingWord + name
 }
